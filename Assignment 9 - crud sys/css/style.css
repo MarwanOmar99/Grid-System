@@ -1,0 +1,921 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins" , sans-serif;
+}
+section{
+    overflow: hidden;
+}
+.contr{
+    height: 100vh;
+}
+.content1{
+    width: 100%;
+}
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../img/intro-bg.jpg");
+    z-index: 996;
+}
+.nan1{
+    background-color: rgb(0, 0, 0) !important;
+    position: fixed;
+    z-index: 1;
+}
+
+.nan{
+    z-index: 999;
+    position: absolute;
+}
+.mask-custom {
+    z-index: 997;
+    backdrop-filter: blur(0px);
+    background-color: rgba(0,0,0,0.75);
+}
+.con-Mask{
+    z-index: 998;
+}
+.Logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.bgTog{
+    color: white !important;
+}
+.Linke a{
+    color: white;
+    list-style: none !important;
+    font-size: 16px !important; 
+    font-weight: 400 !important;
+    cursor: pointer !important;
+}
+.Linke2 .tw:hover{
+    color: #8ad2ee;
+    cursor: pointer;
+}
+.Linke a:hover{
+    font-size: 18px !important; 
+    color: #28a745 !important;
+}
+.Linke2 .fa:hover{
+    cursor: pointer;
+    color: #3437aa;
+}
+.Linke2 .da:hover{
+    cursor: pointer;
+    color: #ea4767;
+}
+.typewriter span{
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+}
+.BTNh{
+    border: solid 1px #28a745;
+    color: #28a745;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.BTNh:hover{
+    border: solid 1px #28a745;
+    color: white;
+    background-color: #28a745; 
+}
+.typewriter h2::after{
+    content: "";
+    color: white;
+    font-size: 65px;
+    font-weight: 600;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    margin-top: 0 auto;
+    animation:
+    writing-animation 20s infinite,
+    blink-caret .75s step-end infinite;
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+@keyframes writing-animation {
+    0% {
+        content: "";
+    }
+    0.69% {
+        content: "I";
+    }
+    1.38% {
+        content: "I'";
+    }
+    2.08% {
+        content: "I'm";
+    }
+    2.7% {
+        content: "I'm ";
+    }
+    3.47% {
+        content: "I'm S";
+    }
+    4.16% {
+        content: "I'm Si";
+    }
+    4.86% {
+        content: "I'm Sim";
+    }
+    5.5% {
+        content: "I'm Simo"
+    }
+    6.25% {
+        content: "I'm Simon"
+    }
+    6.94% {
+        content: "I'm Simone";
+    }
+    7.63% {
+        content: "I'm Simone ";
+    }
+    8.33% {
+        content: "I'm Simone O";
+    }
+    9.02% {
+        content: "I'm Simone Ol";
+    }
+    9.72% {
+        content: "I'm Simone Oli";
+    }
+    10.41% {
+        content: "I'm Simone Oliv";
+    }
+    11.1% {
+        content: "I'm Simone Olivi";
+    }
+    11.8% {
+        content: "I'm Simone Olivia";
+    }
+    12.5% {
+        content: "I'm Simone Olivia.";
+    }
+    13.19% {
+        content: "I'm Simone Olivia";
+    }
+    13.8% {
+        content: "I'm Simone Olivi";
+    }
+    14.58% {
+        content: "I'm Simone Oliv";
+    }
+    15.27% {
+        content: "I'm Simone Oli";
+    }
+    15.97% {
+        content: "I'm Simone Ol";
+    }
+    15.66% {
+        content: "I'm Simone O";
+    }
+    17.36% {
+        content: "I'm Simone ";
+    }
+    18.05% {
+        content: "I'm Simone";
+    }
+    18.75% {
+        content: "I'm Simon "
+    }
+    19.44% {
+        content: "I'm Simo"
+    }
+    20.13% {
+        content: "I'm Sim";
+    }
+    20.83% {
+        content: "I'm Si";
+    }
+    21.52% {
+        content: "I'm S";
+    }
+    22.2% {
+        content: "I'm ";
+    }
+    22.91% {
+        content: "I'm";
+    }
+    23.61% {
+        content: "I'";
+    }
+    24.3% {
+        content: "I";
+    }
+    24.9% {
+        content: "";
+    }
+    25% {
+        content: "I";
+    }
+    25.69% {
+        content: "I";
+    }
+    26.38% {
+        content: "I'";
+    }
+    27.08% {
+        content: "I'm";
+    }
+    27.7% {
+        content: "I'm ";
+    }
+    28.47% {
+        content: "I'm a";
+    }
+    29.16% {
+        content: "I'm a ";
+    }
+    29.86% {
+        content: "I'm a F";
+    }
+    30.5% {
+        content: "I'm a Fr"
+    }
+    31.25% {
+        content: "I'm a Fre"
+    }
+    31.94% {
+        content: "I'm a Free";
+    }
+    32.63% {
+        content: "I'm a Freel";
+    }
+    33.33% {
+        content: "I'm a Freela";
+    }
+    34.02% {
+        content: "I'm a Freelan";
+    }
+    34.72% {
+        content: "I'm a Freelanc";
+    }
+    35.41% {
+        content: "I'm a Freelance";
+    }
+    36.1% {
+        content: "I'm a Freelancer";
+    }
+    36.8% {
+        content: "I'm a Freelancer.";
+    }
+    37.5% {
+        content: "I'm a Freelancer.";
+    }
+    38.19% {
+        content: "I'm a Freelancer";
+    }
+    38.8% {
+        content: "I'm a Freelance";
+    }
+    39.58% {
+        content: "I'm a Freelanc";
+    }
+    40.27% {
+        content: "I'm a Freelan";
+    }
+    40.97% {
+        content: "I'm a Freela";
+    }
+    41.66% {
+        content: "I'm a Freel";
+    }
+    42.36% {
+        content: "I'm a Free";
+    }
+    43.05% {
+        content: "I'm a Fre";
+    }
+    43.75% {
+        content: "I'm a Fr"
+    }
+    44.44% {
+        content: "I'm a F"
+    }
+    45.13% {
+        content: "I'm a ";
+    }
+    45.83% {
+        content: "I'm a";
+    }
+    46.52% {
+        content: "I'm ";
+    }
+    47.2% {
+        content: "I'm";
+    }
+    47.91% {
+        content: "I'";
+    }
+    48.61% {
+        content: "I";
+    }
+    49.3% {
+        content: "";
+    }
+    49.9% {
+        content: "";
+    }
+    50% {
+        content: "I";
+    }
+    50.69% {
+        content: "I";
+    }
+    51.38% {
+        content: "I'";
+    }
+    52.08% {
+        content: "I'm";
+    }
+    52.7% {
+        content: "I'm ";
+    }
+    53.47% {
+        content: "I'm a";
+    }
+    54.16% {
+        content: "I'm a ";
+    }
+    54.86% {
+        content: "I'm a P";
+    }
+    55.5% {
+        content: "I'm a Ph"
+    }
+    56.25% {
+        content: "I'm a Pho"
+    }
+    56.94% {
+        content: "I'm a Phot";
+    }
+    57.63% {
+        content: "I'm a Photo";
+    }
+    58.33% {
+        content: "I'm a Photog";
+    }
+    59.02% {
+        content: "I'm a Photogr";
+    }
+    59.72% {
+        content: "I'm a Photogra";
+    }
+    60.41% {
+        content: "I'm a Photograp";
+    }
+    61.1% {
+        content: "I'm a Photograph";
+    }
+    61.8% {
+        content: "I'm a Photographe";
+    }
+    62.5% {
+        content: "I'm a Photographer.";
+    }
+    63.19% {
+        content: "I'm a Photographer";
+    }
+    63.8% {
+        content: "I'm a Photographe";
+    }
+    64.58% {
+        content: "I'm a Photograph";
+    }
+    65.27% {
+        content: "I'm a Photograp";
+    }
+    65.97% {
+        content: "I'm a Photogra";
+    }
+    66.66% {
+        content: "I'm a Photogr";
+    }
+    67.36% {
+        content: "I'm a Photog";
+    }
+    68.05% {
+        content: "I'm a Photo";
+    }
+    68.75% {
+        content: "I'm a Phot"
+    }
+    69.44% {
+        content: "I'm a Pho"
+    }
+    70.13% {
+        content: "I'm a Ph";
+    }
+    70.83% {
+        content: "I'm a P";
+    }
+    71.52% {
+        content: "I'm a";
+    }
+    72.2% {
+        content: "I'm ";
+    }
+    72.91% {
+        content: "I'm";
+    }
+    73.61% {
+        content: "I'";
+    }
+    74.3% {
+        content: "I";
+    }
+    74.9% {
+        content: "";
+    }
+    75% {
+        content: "I";
+    }
+    75.69% {
+        content: "I";
+    }
+    76.38% {
+        content: "I'";
+    }
+    77.08% {
+        content: "I'm";
+    }
+    77.7% {
+        content: "I'm ";
+    }
+    78.47% {
+        content: "I'm a";
+    }
+    79.16% {
+        content: "I'm a ";
+    }
+    79.86% {
+        content: "I'm a D";
+    }
+    80.5% {
+        content: "I'm a De"
+    }
+    81.25% {
+        content: "I'm a Des"
+    }
+    81.94% {
+        content: "I'm a Desi";
+    }
+    82.63% {
+        content: "I'm a Desig";
+    }
+    83.33% {
+        content: "I'm a Design";
+    }
+    84.02% {
+        content: "I'm a Designe";
+    }
+    84.72% {
+        content: "I'm a Designer";
+    }
+    85.41% {
+        content: "I'm a Designer.";
+    }
+    86.1% {
+        content: "I'm a Designer.";
+    }
+    86.8% {
+        content: "I'm a Designer.";
+    }
+    87.5% {
+        content: "I'm a Designer.";
+    }
+    88.19% {
+        content: "I'm a Designer";
+    }
+    88.8% {
+        content: "I'm a Designe";
+    }
+    89.58% {
+        content: "I'm a Design";
+    }
+    90.27% {
+        content: "I'm a Desig";
+    }
+    90.97% {
+        content: "I'm a Desi";
+    }
+    91.66% {
+        content: "I'm a Des";
+    }
+    92.36% {
+        content: "I'm a De";
+    }
+    93.05% {
+        content: "I'm a D";
+    }
+    93.75% {
+        content: "I'm a "
+    }
+    94.44% {
+        content: "I'm a"
+    }
+    95.13% {
+        content: "I'm ";
+    }
+    95.83% {
+        content: "I'm";
+    }
+    96.52% {
+        content: "I'";
+    }
+    97.2% {
+        content: "I";
+    }
+    97.91% {
+        content: "I";
+    }
+    98.61% {
+        content: "";
+    }
+    99.3% {
+        content: "";
+    }
+    100% {
+        content: "";
+    }
+}
+.object {
+    overflow: hidden;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    animation: MoveUpDown 4s infinite;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {  
+      bottom: 0;
+    }
+    50% {
+      bottom: 40px;
+    }
+  }
+.Icons i{
+    padding-right: 30px  ;
+    font-size: 18px;
+}
+.tit::after{
+    content: "About Me";
+    position: absolute;
+    font-size: 7em;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.04);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-transform: uppercase;
+}
+.tit2::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 0;
+    border-width: 1px;
+    border-bottom: 0.01em;
+    border-style: solid;
+    border-color: #28a745;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lis::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    border-width: 1px;
+    border-bottom: 0.01em;
+    border-style:solid;
+    border-color: #d2d2d2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lis{
+    list-style: none;
+}
+.rowText h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: rgb(142, 154, 157);
+}
+.rowText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(142, 154, 157);
+}
+.CVB{
+    background-color: #218a39;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.content3{
+    background-color: #f8f9fa;
+}
+.con3{
+    top: 80px;
+}
+.tit3::after{
+    content: "SERVICE";
+    position: absolute;
+    font-size: 8em;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.04);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-transform: uppercase
+}
+.tit4::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 0;
+    border-width: 1px;
+    border-bottom: 0.01em;
+    border-style: solid;
+    border-color: #28a745;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.IcD{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(40, 167, 69);
+    border-radius: 10px;
+}
+.tit5::after{
+    content: "Summary";
+    position: absolute;
+    font-size: 8em;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.04);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-transform: uppercase
+}
+.datee{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: #28a745;
+}
+.mag{
+    font-size: 21px;
+    font-weight: 400;
+}
+.mag1{
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+.mag2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.pro-small{
+    height: 0.5rem !important;
+}
+.bgs{
+    background-color: #28a745;
+}
+.btCV{
+    color: #6C757D;
+    background-color: white;
+    text-decoration: none;
+    border: #6C757D;
+    border-style: solid;
+}
+.btCV:hover{
+    color: white;
+    background-color: #6C757D;
+    cursor: pointer;
+}
+.tit6::after{
+    content: "Portfolio";
+    position: absolute;
+    font-size: 8em;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.04);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-transform: uppercase
+}
+.lo a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #6c757d;
+}
+.d4:hover{
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.01em;
+    border-style: solid;
+    border-color: #28a745;
+    color: #28a745;
+}
+.d3:hover{
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.01em;
+    border-style: solid;
+    border-color: #28a745;
+    color: #28a745;
+}
+.d2:hover{
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.01em;
+    border-style: solid;
+    border-color: #28a745;
+    color: #28a745;
+}
+.d1:hover{
+    border-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0.01em;
+    border-style: solid;
+    border-color: #28a745;
+    color: #28a745;
+}
+.imgRow img{
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 91%;
+    background: rgba(0, 0, 0, 0.432);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+}
+.cnI:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    background: rgba(0, 0, 0, 0.432);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+}
+.cnI1:hover .overlay1{
+    opacity: 1;
+    cursor: pointer;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    background: rgba(0, 0, 0, 0.692);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+}
+.cnI3:hover .overlay3{
+    opacity: 1;
+    cursor: pointer;
+}
+.di{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+}
+.di h3{
+    color: white;
+}
+.di span{
+    color: white;
+}
+.tit7::after{
+    content: "testimonial";
+    position: absolute;
+    font-size: 8em;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.04);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-transform: uppercase
+}
+.bgC{
+    background-color: #f8f9fa !important;
+}
+.bgC span{
+    color: #8e9a9d!important;
+}
+.Line{
+    line-height: 30px;
+}
+.iconer{
+    color: #ffc107;
+}
+.tit8::after{
+    content: "Contact";
+    position: absolute;
+    font-size: 8em;
+    font-weight: 600;
+    color: rgba(8, 8, 8, 0.04);
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-transform: uppercase
+}
+.liser li{
+    list-style: none;
+}
+.liser .hj i{
+    color: #28a745;
+}
+textarea{
+    height: 25vh;
+}
+.Micon i{
+    cursor: pointer;
+}
+.BTNMS{
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    cursor: pointer;
+}
+.BTNMS:hover{
+    background-color: #135f25;
+}
+.Fot a{
+    font-size: 16px ;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Term a{
+    color: black;
+}
+.Term a:hover{
+    color: #28a745;
+}
+.Si{
+    color: #28a745;
+}
+.Si:hover{
+    color: #135f25;
+}
+.up{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.up a{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    background-color: #dddddd;
+    transition: 0.3s;
+}
+.up a:hover{
+    background-color: #28a745;
+}
